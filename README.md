@@ -25,6 +25,6 @@ mrss.cra3r3(mdes=.25, power=.80, alpha=.05, two.tail=FALSE, gm=2, ncase=10, cons
 ```
 One point I need to make about adding time is that random intercept models assumes that the correlation between time points is the same (Donohue et al., 2016).  This seems like a reasonable assumption for most studies; however, if this is not a reasonable assumption then a package like longPower maybe more appropriate.
 
-We can see that 12 students per classroom over 4 time points across ten clusters means that we would need 12*4 = 48 total students for this particular study to achieve a power of .8 to detect an effect size of .25.
+We can see that 12 students per classroom over 10 ten clusters means that we would need 12*10 = 120 total students for this particular study to achieve a power of .8 to detect an effect size of .25.
 
 References: Donohue, M. C., Edland, S. D., & Gamst, A. C. (2016). Power for linear models of longitudinal data with applications to Alzheimer’s Disease Phase II study design.
